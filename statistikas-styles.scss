@@ -1,0 +1,39 @@
+/*-- scss:defaults --*/
+
+// Base theme navigation: https://bootswatch.com/cosmo/
+// Get inspired:
+// https://maya.rbind.io/
+// https://ucsb-meds.github.io/customizing-quarto-websites/#/look-at-other-sites
+// https://samanthacsik.github.io/
+
+// Colors
+$logo-blue: #3A51A2;
+$dark-sage-green: #98A08D;
+$cream: #F5EFE6;
+$dark-cream: #E8DFCA;
+$gray: #64605f;
+$light-gray: #949799;
+$purple: #AE8BD1;
+
+// Base document colors
+$navbar-bg: $dark-cream; // navbar
+$navbar-fg: $dark-sage-green; // navbar foreground elements
+$navbar-hl: $logo-blue; // highlight color when hovering over navbar links
+$body-bg: $cream; // page background 
+$body-color: $gray; // page text 
+$footer-bg: $cream; // footer 
+$link-color: $purple; // hyperlinks 
+
+// Inline code
+$code-bg: $cream; // inline code background color
+$code-color: $purple; // inline code text color
+
+// Code blocks
+$code-block-bg: $cream; // code block background color
+
+
+.navbar-brand img { // see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
+  max-height: 40px;
+  width: auto;
+}
+

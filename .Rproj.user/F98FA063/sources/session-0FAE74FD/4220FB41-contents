@@ -1,0 +1,47 @@
+
+- "Copyright 2021, Samantha Csik"
+right: 
+  - icon: github
+href: https://github.com/samanthacsik
+- icon: twitter
+href: https://twitter.com/SamanthaCsik
+
+format:
+  html:
+  theme: cosmo
+css: styles.css
+toc: true
+
+Add a favicon & personal logo
+
+_quarto.yml file Output Notes
+project:
+  type: website
+output-dir: docs
+
+website:
+  title: "samantha csik"
+favicon: file/path/to/image.png
+navbar:
+  title: false # change this to false!
+logo: file/path/to/logo.png
+logo-alt: "Alt text for logo"
+right: 
+  - href: index.qmd
+text: home 
+
+# ~ additional YAML excluded for brevity ~
+
+format:
+  html:
+  theme: cosmo
+css: styles.css
+toc: true
+
+Checkout other website tools
+
+Explore the Quarto documentation to learn more about enabling Twitter Cards, Google Analytics, Open Graph protocol, and more.
+
+
+
+11 / 71

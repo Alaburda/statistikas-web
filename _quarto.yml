@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  sidebar:
+    style: "docked"
+    search: true
+  title: Statistikas
+  favicon: assets/images/favicon.png
+  navbar:
+    title: false
+    logo: assets/images/logo.png
+    logo-alt: Statistikas
+    right: 
+      - href: index.qmd
+        text: home # use 'text' option to update the name as you want it to appear in your navbar
+      - about.qmd
+      - resources.qmd
+      - href: CV/SCsik_CV.pdf
+        text: cv
+      - icon: github # add icons that link to social media, etc.
+        href: https://github.com/samanthacsik
+      - icon: twitter
+        href: https://twitter.com/SamanthaCsik\
+  page-footer: 
+    left: "© 2022, Paulius Alaburda" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+  
+
+format:
+  html:
+    theme: 
+      - statistikas-styles.scss
+    css: styles.css
+    toc: true
+
